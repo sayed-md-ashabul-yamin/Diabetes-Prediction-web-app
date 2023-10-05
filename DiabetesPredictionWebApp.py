@@ -27,9 +27,9 @@ def diabetes_prediction(input_data):
     print(prediction)
 
     if (prediction[0] == 0):
-      return "The Person is Non Diabetic"
+      return "Congratulations!! 🎉 You are Non Diabetic"
     else:
-      return "The Person is Diabetic"
+      return "Oh ho ! You are Diabetic. Please consult with your Doctor Asap"
   
     
   
