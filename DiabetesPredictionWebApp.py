@@ -15,7 +15,7 @@ loaded_model = pickle.load(open('diabetes_model_sid.sav', 'rb'))
 
 def diabetes_prediction(input_data):
     
-    input_data = (4,110,92,0,0,37.6,0.191,30)
+    
 
     # changing the data into a numpy array
     input_data_as_numpy_array = np.asarray(input_data)
